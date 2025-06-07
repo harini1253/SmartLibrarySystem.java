@@ -1,0 +1,35 @@
+# 📚 Smart Library Management System (Console-Based in Java)
+
+A modular Java application simulating a **microservices-like structure** for managing library operations including book borrowing, returns, user registration, and admin book management. Built using **Core Java**, **OOP principles**, and **file-based storage** — no database or REST APIs required.
+
+---
+
+## 🚀 Features
+
+- 👤 User Registration & Login
+- 📖 View, Borrow, and Return Books
+- 🔐 Admin Panel to Add Books & View Transactions
+- 📁 Persistent Storage using `.dat` files (Java Serialization)
+- 🔄 Simulated Microservice Structure using Java Classes
+- 🧾 Console-based user interface
+
+---
+
+## 🛠️ Tech Stack
+
+| Component        | Technology         |
+|------------------|--------------------|
+| Language         | Java (Core Java)   |
+| Storage          | Java File I/O (.dat files) |
+| Design Pattern   | OOP + Modular Classes |
+| UI               | Console            |
+
+---
+
+## 📂 Folder Structure
+
+```bash
+SmartLibrarySystem.java        # Main program file
+books.dat                      # Book data (auto-created)
+users.dat                      # Registered users
+transactions.dat               # Borrow/Return history
